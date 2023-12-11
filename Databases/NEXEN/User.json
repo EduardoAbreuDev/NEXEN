@@ -1,0 +1,12 @@
+{
+    "username": "string, lowercase, trim, unique, required",
+    "email": "string, lowercase, trim, unique, required",
+    "role": "string, enum, admin, user",
+    "password": "string, argon2",
+    "adress": {
+        "country": "string",
+        "state": "string",
+        "city": "string",
+        "zip_code": ""
+    }
+}
